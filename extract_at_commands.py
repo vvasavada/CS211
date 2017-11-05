@@ -33,8 +33,6 @@ def process_file(f_read, f_write):
 			index = translated_s.find("AT+")	
 			if index == -1:
 				index = translated_s.find("at+")
-			print translated_s
-			print index
 			if index >= 0:
 				s = ""
 				c = translated_s[index]
